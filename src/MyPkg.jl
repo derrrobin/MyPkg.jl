@@ -1,5 +1,8 @@
 module MyPkg
 
-# Write your package code here.
+export say_Hello
+function say_Hello()
+    println("Hello")
+end
 
 end
